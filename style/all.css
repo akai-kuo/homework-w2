@@ -82,6 +82,8 @@ table {
 
 img{
 	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
 }
 
 a{
@@ -106,10 +108,76 @@ body{
 	margin: 0 auto;
 }
 
-.col{
+.col-1{
 	padding-left: 12px;
 	padding-right: 12px;
 	width: calc(100%/12);
+}
+
+.col-2{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100%/12*2);
+}
+
+.col-3{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100%/12*3);
+}
+
+.col-4{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100%/12*4);
+}
+
+.col-5{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100%/12*5);
+}
+
+.col-6{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100%/12*6);
+}
+
+.col-7{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100%/12*7);
+}
+
+.col-8{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100%/12*8);
+}
+
+.col-9{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100%/12*9);
+}
+
+.col-10{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100%/12*10);
+}
+
+.col-11{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100%/12*11);
+}
+
+.col-12{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100%);
 }
 
 .row{
@@ -217,6 +285,15 @@ body{
 	padding-top: 32px;
 	padding-bottom: 32px;
 }
+
+.me-40{
+	margin-inline-end: 40px;
+}
+
+.me-48{
+	margin-inline-end: 48px;
+}
+
 /*
 .py-64{
 	padding-top: 64px;
@@ -303,4 +380,22 @@ body{
 
 .footer{
 	text-align: center;
+}
+
+/* 元件 */
+
+.breadcrumb-item + .breadcrumb-item::before{
+	content: '/';
+	padding: 0 12px;
+	color: var(--neutral-300);
+	font-weight: 700;
+}
+
+.breadcrumb-item{
+	display: flex;
+	font-weight: 500;
+}
+
+.breadcrumb-link{
+	color: var(--neutral-600);
 }
