@@ -307,6 +307,7 @@ body{
 .pe-8{
 	padding-right: 8px;
 }
+*/
 
 .mb-4{
 	margin-bottom: 4px;
@@ -327,7 +328,7 @@ body{
 .mb-48{
 	margin-bottom: 48px;
 }
-*/
+
 /* page */
 
 .header{
@@ -398,4 +399,15 @@ body{
 
 .breadcrumb-link{
 	color: var(--neutral-600);
+}
+
+.btn{
+	border-radius: 4px;
+	padding: 12px 24px;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	cursor: pointer;
+	border: none;
+	color: transparent;
 }
